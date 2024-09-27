@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gehu-Recipe</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "recipe.css">
+</head>
+<body>
+  <div class = "main">
+    <div class = "wrap-main">
+      <div class = "heading">
+        <h2 class = "title" id="title">Ingredient Alchemy</h2>
+        <blockquote id="block">Unlock the culinary possibilities at your fingertips with Ingredient Alchemy – where your kitchen dreams come true, one ingredient at a time. Search, discover, and create delectable recipes with the magic of your chosen ingredients.<br>
+          <cite>-Team</cite>
+        </blockquote>
+
+        <div class = "heading-box">
+          <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+        </div>
+      </div>
+      <div class = "meal-details">
+               <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+        <div class = "meal-details-content">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src = "recipe.js"></script>
+</body>
+</html>
